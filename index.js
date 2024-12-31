@@ -22,9 +22,11 @@ const model = genAI.getGenerativeModel({
   const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
+      executablePath: '/usr/bin/google-chrome-stable', // Atau lokasi lain yang sesuai
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
   });
+  
   
 
 // Tampilkan QR code di terminal
