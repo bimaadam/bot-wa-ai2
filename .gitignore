@@ -1,0 +1,30 @@
+# Ignore semua file .DS_Store (file sistem macOS)
+.DS_Store
+
+# Ignore direktori build dan distribusi
+/build/
+/dist/
+/out/
+/target/
+
+# Ignore file log dan cache
+*.log
+*.cache
+*.tmp
+
+# Ignore file lingkungan
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore direktori node_modules
+/node_modules/
+
+# Ignore direktori vendor (untuk proyek PHP)
+/vendor/
+
+# Ignore direktori Python virtual environment
+/venv/
+/.venv/
