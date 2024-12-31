@@ -22,10 +22,11 @@ const model = genAI.getGenerativeModel({
   const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-      executablePath: '/usr/bin/google-chrome-stable', // Atau lokasi lain yang sesuai
+      executablePath: '/usr/bin/chromium', // Sesuaikan dengan Dockerfile
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
   });
+  
   
   
 

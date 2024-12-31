@@ -23,7 +23,12 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
 WORKDIR /app
-COPY . /app
+
+# Copy package.json terlebih dahulu agar cache dimanfaatkan
+COPY package.json package-lock.json ./
 RUN npm install
+
+# Copy seluruh source code
+COPY . .
 
 CMD ["npm", "start"]
