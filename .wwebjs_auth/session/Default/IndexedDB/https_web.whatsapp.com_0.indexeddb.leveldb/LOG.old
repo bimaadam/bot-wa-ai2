@@ -1,22 +1,34 @@
-2024/12/31-13:31:29.998 24e8 Reusing MANIFEST C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/31-13:31:29.999 24e8 Recovering log #121
-2024/12/31-13:31:30.165 24e8 Reusing old log C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000121.log 
-2024/12/31-13:31:34.625 4b7c Level-0 table #127: started
-2024/12/31-13:31:34.662 4b7c Level-0 table #127: 1006561 bytes OK
-2024/12/31-13:31:34.663 4b7c Delete type=0 #121
-2024/12/31-13:31:34.664 1648 Manual compaction at level-0 from '\x006\x00\x00\x00' @ 72057594037927935 : 1 .. '\x007\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/31-13:31:34.667 1648 Level-0 table #129: started
-2024/12/31-13:31:34.677 1648 Level-0 table #129: 250 bytes OK
-2024/12/31-13:31:34.678 1648 Delete type=0 #126
-2024/12/31-13:31:34.679 1648 Manual compaction at level-0 from '\x007\x00\x00\x00' @ 72057594037927935 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at '\x007\x00\x00\x05' @ 151953 : 0
-2024/12/31-13:31:34.679 1648 Compacting 1@0 + 1@1 files
-2024/12/31-13:31:34.725 1648 Generated table #130@0: 19525 keys, 447913 bytes
-2024/12/31-13:31:34.725 1648 Compacted 1@0 + 1@1 files => 447913 bytes
-2024/12/31-13:31:34.726 1648 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/12/31-13:31:34.727 1648 Delete type=2 #129
-2024/12/31-13:31:34.727 1648 Manual compaction at level-0 from '\x007\x00\x00\x05' @ 151953 : 0 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/31-13:31:36.894 534c Compacting 1@1 + 1@2 files
-2024/12/31-13:31:36.973 534c Generated table #131@1: 21032 keys, 987076 bytes
-2024/12/31-13:31:36.973 534c Compacted 1@1 + 1@2 files => 987076 bytes
-2024/12/31-13:31:36.973 534c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/31-13:31:36.974 534c Delete type=2 #127
+2024/12/31-13:46:53.364 85c Reusing MANIFEST C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/31-13:46:53.364 85c Recovering log #149
+2024/12/31-13:46:53.461 85c Reusing old log C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000149.log 
+2024/12/31-13:46:53.461 85c Delete type=2 #145
+2024/12/31-13:46:53.461 85c Delete type=2 #151
+2024/12/31-13:46:55.241 688 Level-0 table #155: started
+2024/12/31-13:46:55.272 688 Level-0 table #155: 757460 bytes OK
+2024/12/31-13:46:55.273 688 Delete type=0 #149
+2024/12/31-13:46:55.274 688 Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/31-13:46:55.279 688 Level-0 table #157: started
+2024/12/31-13:46:55.294 688 Level-0 table #157: 452 bytes OK
+2024/12/31-13:46:55.295 688 Delete type=0 #154
+2024/12/31-13:46:55.295 688 Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at '\x00?\x00\x00\x05' @ 227276 : 0
+2024/12/31-13:46:55.295 688 Compacting 1@0 + 1@1 files
+2024/12/31-13:46:55.324 688 Generated table #158@0: 11562 keys, 260213 bytes
+2024/12/31-13:46:55.324 688 Compacted 1@0 + 1@1 files => 260213 bytes
+2024/12/31-13:46:55.325 688 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/31-13:46:55.325 688 Delete type=2 #157
+2024/12/31-13:46:55.326 688 Manual compaction at level-0 from '\x00?\x00\x00\x05' @ 227276 : 0 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/31-13:46:57.623 688 Compacting 1@1 + 1@2 files
+2024/12/31-13:46:57.726 688 Generated table #159@1: 38176 keys, 1731033 bytes
+2024/12/31-13:46:57.726 688 Compacted 1@1 + 1@2 files => 1731033 bytes
+2024/12/31-13:46:57.731 688 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/31-13:46:57.731 688 Delete type=2 #152
+2024/12/31-13:46:57.731 688 Delete type=2 #155
+2024/12/31-13:46:57.731 688 Delete type=2 #158
+2024/12/31-13:51:59.699 2f00 Level-0 table #161: started
+2024/12/31-13:51:59.729 2f00 Level-0 table #161: 682616 bytes OK
+2024/12/31-13:51:59.730 2f00 Delete type=0 #156
+2024/12/31-13:51:59.731 2f00 Manual compaction at level-0 from '\x00A\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00B\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/31-13:52:29.023 1c8c Compacting 1@1 + 1@2 files
+2024/12/31-13:52:29.229 1c8c Generated table #162@1: 41078 keys, 1851190 bytes
+2024/12/31-13:52:29.229 1c8c Compacted 1@1 + 1@2 files => 1851190 bytes
+2024/12/31-13:52:29.230 1c8c compacted to: files[ 0 0 1 0 0 0 0 ]

@@ -1,26 +1,6 @@
-2024/12/31-13:38:34.182 3354 Reusing MANIFEST C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/31-13:38:34.182 3354 Recovering log #128
-2024/12/31-13:38:34.420 3354 Reusing old log C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000128.log 
-2024/12/31-13:38:34.421 3354 Delete type=2 #124
-2024/12/31-13:38:34.421 3354 Delete type=2 #130
-2024/12/31-13:38:36.336 3ec8 Level-0 table #134: started
-2024/12/31-13:38:36.375 3ec8 Level-0 table #134: 1203947 bytes OK
-2024/12/31-13:38:36.376 3ec8 Delete type=0 #128
-2024/12/31-13:38:36.377 3ec8 Manual compaction at level-0 from '\x008\x00\x00\x00' @ 72057594037927935 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/31-13:38:36.389 3ec8 Level-0 table #136: started
-2024/12/31-13:38:36.403 3ec8 Level-0 table #136: 446 bytes OK
-2024/12/31-13:38:36.404 3ec8 Delete type=0 #133
-2024/12/31-13:38:36.405 3ec8 Manual compaction at level-0 from '\x009\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at '\x009\x00\x00\x05' @ 187388 : 0
-2024/12/31-13:38:36.405 3ec8 Compacting 1@0 + 1@1 files
-2024/12/31-13:38:36.452 3ec8 Generated table #137@0: 20409 keys, 516707 bytes
-2024/12/31-13:38:36.452 3ec8 Compacted 1@0 + 1@1 files => 516707 bytes
-2024/12/31-13:38:36.452 3ec8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/12/31-13:38:36.453 3ec8 Delete type=2 #136
-2024/12/31-13:38:36.453 3ec8 Manual compaction at level-0 from '\x009\x00\x00\x05' @ 187388 : 0 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/31-13:38:38.720 4748 Compacting 1@1 + 1@2 files
-2024/12/31-13:38:38.785 4748 Generated table #138@1: 29250 keys, 1376366 bytes
-2024/12/31-13:38:38.785 4748 Compacted 1@1 + 1@2 files => 1376366 bytes
-2024/12/31-13:38:38.785 4748 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/31-13:38:38.786 4748 Delete type=2 #131
-2024/12/31-13:38:38.786 4748 Delete type=2 #134
-2024/12/31-13:38:38.786 4748 Delete type=2 #137
+2024/12/31-13:59:41.587 2310 Reusing MANIFEST C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/31-13:59:41.587 2310 Recovering log #160
+2024/12/31-13:59:41.693 2310 Reusing old log C:\Users\BimaAdam\Documents\DataBima\Projek Ngoding\wa-botv2\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000160.log 
+2024/12/31-13:59:41.694 2310 Delete type=2 #159
+2024/12/31-13:59:41.694 2310 Delete type=2 #161
+2024/12/31-13:59:43.597 2310 Manual compaction at level-0 from '\x00B\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00C\x00\x00\x00' @ 0 : 0; will stop at (end)
