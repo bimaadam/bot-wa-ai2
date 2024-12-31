@@ -20,10 +20,12 @@ const model = genAI.getGenerativeModel({
   });
   
   const client = new Client({
+    authStrategy: new LocalAuth(),
     puppeteer: {
-      headless: true,  // Set ke false untuk menampilkan Chromium
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
-    }
+      headless: true,
+      executablePath: '/usr/bin/chromium',
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    },
   });
 
 // Tampilkan QR code di terminal
