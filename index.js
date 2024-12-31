@@ -2,6 +2,13 @@ require('dotenv').config(); // Load environment variables
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const { generateImage, GoogleGenerativeAI } = require("@google/generative-ai");
 const qrcode = require('qrcode-terminal'); // Tambahkan ini untuk QR code di terminal
+const puppeteer = require('puppeteer-core');
+
+const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+});
+
 
 // Inisialisasi Google Gemini
 const apiKey = process.env.GEMINI_API_KEY;
