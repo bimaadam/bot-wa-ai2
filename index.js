@@ -54,7 +54,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Lo maunya gimana? Mau diselesaiin baik-baik atau mau gue terusin ke jalur hukum? Gue udah siapin semua bukti, jadi jangan coba-coba macem-macem ya.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Lo maunya gimana? Mau diselesaiin baik-baik atau mau gue terusin ke jalur hukum? Gue udah siapin semua bukti, jadi jangan coba-coba macem-macem ya.\n"},
           ],
         },
         {
@@ -66,7 +66,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nLo ngeyel juga? Gue sudah catat semua komunikasi, dan gue akan teruskan ke pihak berwenang kalau lo tetap ngancem. Coba cek lagi, utang ini udah masuk ke tahap penyelesaian resmi. Kalau cara nagih lo terus begitu, gue terpaksa ambil langkah hukum. Jadi, masih inget kan, kita udah bahas soal pengacara? Gue nggak main-main kalau ada yang keluar jalur hukum.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nLo ngeyel juga? Gue sudah catat semua komunikasi, dan gue akan teruskan ke pihak berwenang kalau lo tetap ngancem. Coba cek lagi, utang ini udah masuk ke tahap penyelesaian resmi. Kalau cara nagih lo terus begitu, gue terpaksa ambil langkah hukum. Jadi, masih inget kan, kita udah bahas soal pengacara? Gue nggak main-main kalau ada yang keluar jalur hukum.\n"},
           ],
         },
         {
@@ -78,7 +78,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nSeperti yang sudah gue bilang sebelumnya, utang ini sedang diselesaikan melalui jalur resmi. Jangan ada lagi ancaman atau intimidasi, karena gue siap laporin ini ke pihak berwenang. Lo ngeyel juga? Gue sudah catat semua komunikasi, dan gue akan teruskan ke pihak berwenang kalau lo tetap ngancem. Jadi, masih inget kan, kita udah bahas soal pengacara? Gue nggak main-main kalau ada yang keluar jalur hukum.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nSeperti yang sudah gue bilang sebelumnya, utang ini sedang diselesaikan melalui jalur resmi. Jangan ada lagi ancaman atau intimidasi, karena gue siap laporin ini ke pihak berwenang. Lo ngeyel juga? Gue sudah catat semua komunikasi, dan gue akan teruskan ke pihak berwenang kalau lo tetap ngancem. Jadi, masih inget kan, kita udah bahas soal pengacara? Gue nggak main-main kalau ada yang keluar jalur hukum.\n"},
           ],
         },
         {
@@ -90,7 +90,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Gue udah kasih tau sebelumnya tentang jalur hukum, dan gue gak akan ragu buat teruskan ini ke pihak berwenang. Lo mau lewat aplikasi atau tim lo, sama aja buat gue. Semua komunikasi lo udah gue catat. Jadi, mending kita selesain ini baik-baik sebelum semuanya jadi lebih rumit.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Gue udah kasih tau sebelumnya tentang jalur hukum, dan gue gak akan ragu buat teruskan ini ke pihak berwenang. Lo mau lewat aplikasi atau tim lo, sama aja buat gue. Semua komunikasi lo udah gue catat. Jadi, mending kita selesain ini baik-baik sebelum semuanya jadi lebih rumit.\n"},
           ],
         },
         {
@@ -102,7 +102,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nNah, itu yang gue mau denger. Kalo lo berani jalur hukum, gue juga lebih dari siap. Semua bukti udah gue kumpulin, dan pengacara gue juga udah siap. Jadi, ayo aja kalo lo mau lanjutin. Gue gak akan mundur, dan semua tindakan lo bakal gue catat.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nNah, itu yang gue mau denger. Kalo lo berani jalur hukum, gue juga lebih dari siap. Semua bukti udah gue kumpulin, dan pengacara gue juga udah siap. Jadi, ayo aja kalo lo mau lanjutin. Gue gak akan mundur, dan semua tindakan lo bakal gue catat.\n"},
           ],
         },
         {
@@ -114,7 +114,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Gue udah kasih tau sebelumnya tentang jalur hukum, dan gue gak akan ragu buat teruskan ini ke pihak berwenang. Lo mau kasih deadline jam 12 siang? Oke, gue catat. Tapi inget, semua ancaman lo juga gue catat. Jadi, kalo tim lo bertindak di luar hukum, gue gak akan ragu buat laporin.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Gue udah kasih tau sebelumnya tentang jalur hukum, dan gue gak akan ragu buat teruskan ini ke pihak berwenang. Lo mau kasih deadline jam 12 siang? Oke, gue catat. Tapi inget, semua ancaman lo juga gue catat. Jadi, kalo tim lo bertindak di luar hukum, gue gak akan ragu buat laporin.\n"},
           ],
         },
         {
@@ -126,7 +126,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Gue udah bilang, masalah ini lagi diurus lewat jalur resmi. Jadi, jangan maksa-maksa kayak gini. Gue gak akan bayar sekarang karena semua udah ada prosedurnya. Kalau lo terus-terusan ngejar dengan cara yang gak bener, gue bakal laporin ke pihak berwajib.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nOke, jadi kayak yang kita obrolin tadi, masalah utang ini udah dalam proses penyelesaian, kan? Gue udah bilang, masalah ini lagi diurus lewat jalur resmi. Jadi, jangan maksa-maksa kayak gini. Gue gak akan bayar sekarang karena semua udah ada prosedurnya. Kalau lo terus-terusan ngejar dengan cara yang gak bener, gue bakal laporin ke pihak berwajib.\n"},
           ],
         },
         {
@@ -138,7 +138,7 @@ client.on('message', async (message) => {
         {
           role: "model",
           parts: [
-            {text: "Bima Digital Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nSeperti yang sudah gue bilang sebelumnya, utang ini sedang diselesaikan melalui jalur resmi. Jangan ada lagi ancaman atau intimidasi, karena gue siap laporin ini ke pihak berwenang. Lo ngeyel juga? Gue sudah catat semua komunikasi, dan gue akan teruskan ke pihak berwenang kalau lo tetap ngancem. Jadi, masih inget kan, kita udah bahas soal pengacara? Gue nggak main-main kalau ada yang keluar jalur hukum. Gak usah pake kata-kata kasar, bro.\n"},
+            {text: "Forensik: Jangan coba-coba ganggu, gue udah siapin semua data buat perlindungan.\n\nSeperti yang sudah gue bilang sebelumnya, utang ini sedang diselesaikan melalui jalur resmi. Jangan ada lagi ancaman atau intimidasi, karena gue siap laporin ini ke pihak berwenang. Lo ngeyel juga? Gue sudah catat semua komunikasi, dan gue akan teruskan ke pihak berwenang kalau lo tetap ngancem. Jadi, masih inget kan, kita udah bahas soal pengacara? Gue nggak main-main kalau ada yang keluar jalur hukum. Gak usah pake kata-kata kasar, bro.\n"},
           ],
         },
     ],
