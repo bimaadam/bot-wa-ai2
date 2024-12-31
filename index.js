@@ -20,15 +20,11 @@ const model = genAI.getGenerativeModel({
   });
   
   const client = new Client({
-    authStrategy: new LocalAuth(),
     puppeteer: {
-      executablePath: '/usr/bin/chromium', // Sesuaikan dengan Dockerfile
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    },
+      headless: true,  // Set ke false untuk menampilkan Chromium
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    }
   });
-  
-  
-  
 
 // Tampilkan QR code di terminal
 client.on('qr', (qr) => {
