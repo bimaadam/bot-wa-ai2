@@ -1,38 +1,29 @@
-# Gunakan image Node.js terbaru
 FROM node:18-slim
 
-# Tambahkan Chrome dependencies untuk puppeteer
+# Install dependencies termasuk Chromium
 RUN apt-get update && apt-get install -y \
-libgobject-2.0-0 \
-libglib2.0-0 \
-libnss3 \
-libatk1.0-0 \
-libatk-bridge2.0-0 \
-libcups2 \
-libdrm2 \
-libxcomposite1 \
-libxrandr2 \
-libgbm1 \
-libasound2 \
-libpangocairo-1.0-0 \
-libxdamage1 \
-libxshmfence1 \
-libxcb-dri3-0 \
-libdbus-glib-1-2
+    chromium \
+    fonts-liberation \
+    libappindicator3-1 \
+    libasound2 \
+    libatk-bridge2.0-0 \
+    libatk1.0-0 \
+    libcups2 \
+    libdbus-1-3 \
+    libnspr4 \
+    libnss3 \
+    libxcomposite1 \
+    libxrandr2 \
+    libxss1 \
+    xdg-utils \
+    --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
+# Set Puppeteer untuk skip download Chromium
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
-# Buat direktori untuk app
-WORKDIR /usr/src/app
-
-# Copy file ke container
-COPY package*.json ./
-COPY . .
-
-# Install dependencies
+WORKDIR /app
+COPY . /app
 RUN npm install
 
-# Expose port
-EXPOSE 3000
-
-# Jalankan aplikasi
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
