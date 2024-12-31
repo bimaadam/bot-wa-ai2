@@ -22,7 +22,7 @@ const model = genAI.getGenerativeModel({
   const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-      headless: true,
+      headless: false,
       executablePath: '/usr/bin/chromium',
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
